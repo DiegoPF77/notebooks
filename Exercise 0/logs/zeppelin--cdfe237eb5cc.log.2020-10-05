@@ -1,0 +1,10 @@
+ INFO [2020-10-05 10:48:51,227] ({qtp2107447833-141} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 47214
+ INFO [2020-10-05 10:49:23,851] ({qtp2107447833-375} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 47214 : anonymous : GET_NOTE : 2FP4JVE4A
+ WARN [2020-10-05 10:49:23,868] ({qtp2107447833-374} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FP4JVE4A, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-05 10:49:23,971] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-05 10:49:23,971] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-05 10:49:23,971] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-05 10:49:23,972] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-05 10:49:23,972] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-05 10:49:23,972] ({qtp2107447833-375} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-05 10:50:05,721] ({qtp2107447833-375} NotebookServer.java[onClose]:372) - Closed connection to 172.17.0.1 : 47214. (1006) WebSocket Read EOF

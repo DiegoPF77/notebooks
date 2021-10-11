@@ -1,0 +1,16 @@
+ INFO [2020-10-01 09:05:06,040] ({main} RemoteInterpreterServer.java[main]:261) - URL:jar:file:/zeppelin/interpreter/sh/zeppelin-interpreter-0.8.1.jar!/org/apache/zeppelin/interpreter/remote/RemoteInterpreterServer.class
+ INFO [2020-10-01 09:05:06,161] ({main} RemoteInterpreterServer.java[<init>]:162) - Launching ThriftServer at 172.17.0.2:42555
+ INFO [2020-10-01 09:05:06,170] ({main} RemoteInterpreterServer.java[<init>]:166) - Starting remote interpreter server on port 42555
+ INFO [2020-10-01 09:05:06,172] ({Thread-0} RemoteInterpreterServer.java[run]:203) - Starting remote interpreter server on port 42555
+ INFO [2020-10-01 09:05:07,188] ({Thread-1} RemoteInterpreterUtils.java[registerInterpreter]:165) - callbackHost: 172.17.0.2, callbackPort: 34519, callbackInfo: CallbackInfo(host:172.17.0.2, port:42555)
+ INFO [2020-10-01 09:05:07,502] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.shell.ShellInterpreter
+ WARN [2020-10-01 09:05:07,617] ({pool-1-thread-1} ZeppelinConfiguration.java[create]:117) - Failed to load configuration, proceeding with a default
+ INFO [2020-10-01 09:05:07,661] ({pool-1-thread-1} ZeppelinConfiguration.java[create]:129) - Server Host: 0.0.0.0
+ INFO [2020-10-01 09:05:07,661] ({pool-1-thread-1} ZeppelinConfiguration.java[create]:131) - Server Port: 8080
+ INFO [2020-10-01 09:05:07,662] ({pool-1-thread-1} ZeppelinConfiguration.java[create]:135) - Context Path: /
+ INFO [2020-10-01 09:05:07,670] ({pool-1-thread-1} ZeppelinConfiguration.java[create]:136) - Zeppelin Version: 0.8.1
+ INFO [2020-10-01 09:05:07,671] ({pool-1-thread-1} SchedulerFactory.java[<init>]:59) - Scheduler Thread Pool Size: 100
+ INFO [2020-10-01 09:05:07,682] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20201001-090449_1017084194 started by scheduler org.apache.zeppelin.shell.ShellInterpreter919904347
+ INFO [2020-10-01 09:05:07,708] ({pool-2-thread-2} ShellInterpreter.java[open]:66) - Command timeout property: 60000
+ INFO [2020-10-01 09:05:07,821] ({pool-2-thread-2} ShellInterpreter.java[interpret]:115) - Paragraph 20201001-090449_1017084194 return with exit value: 0
+ INFO [2020-10-01 09:05:07,824] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20201001-090449_1017084194 finished by scheduler org.apache.zeppelin.shell.ShellInterpreter919904347

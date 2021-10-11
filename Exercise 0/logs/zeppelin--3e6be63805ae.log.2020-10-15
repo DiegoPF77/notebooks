@@ -1,0 +1,828 @@
+ WARN [2020-10-15 09:59:19,581] ({main} ZeppelinConfiguration.java[create]:117) - Failed to load configuration, proceeding with a default
+ INFO [2020-10-15 09:59:19,778] ({main} ZeppelinConfiguration.java[create]:129) - Server Host: 0.0.0.0
+ INFO [2020-10-15 09:59:19,778] ({main} ZeppelinConfiguration.java[create]:131) - Server Port: 8080
+ INFO [2020-10-15 09:59:19,778] ({main} ZeppelinConfiguration.java[create]:135) - Context Path: /
+ INFO [2020-10-15 09:59:19,796] ({main} ZeppelinConfiguration.java[create]:136) - Zeppelin Version: 0.8.1
+ INFO [2020-10-15 09:59:19,949] ({main} Log.java[initialized]:193) - Logging initialized @3472ms to org.eclipse.jetty.util.log.Slf4jLog
+ WARN [2020-10-15 09:59:20,511] ({main} ServerConnector.java[setSoLingerTime]:458) - Ignoring deprecated socket close linger time
+ INFO [2020-10-15 09:59:20,779] ({main} ZeppelinServer.java[setupWebAppContext]:413) - ZeppelinServer Webapp path: /zeppelin/webapps
+ INFO [2020-10-15 09:59:21,165] ({main} ZeppelinServer.java[main]:239) - Starting zeppelin server
+ INFO [2020-10-15 09:59:21,176] ({main} Server.java[doStart]:370) - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12
+ INFO [2020-10-15 09:59:28,513] ({main} StandardDescriptorProcessor.java[visitServlet]:283) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ INFO [2020-10-15 09:59:28,607] ({main} DefaultSessionIdManager.java[doStart]:365) - DefaultSessionIdManager workerName=node0
+ INFO [2020-10-15 09:59:28,607] ({main} DefaultSessionIdManager.java[doStart]:370) - No SessionScavenger set, using defaults
+ INFO [2020-10-15 09:59:28,623] ({main} HouseKeeper.java[startScavenging]:149) - node0 Scavenging every 660000ms
+ INFO [2020-10-15 09:59:29,990] ({main} SchedulerFactory.java[<init>]:59) - Scheduler Thread Pool Size: 100
+ WARN [2020-10-15 09:59:30,060] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2020-10-15 09:59:30,068] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ INFO [2020-10-15 09:59:30,453] ({main} InterpreterSettingManager.java[<init>]:165) - Using RecoveryStorage: org.apache.zeppelin.interpreter.recovery.NullRecoveryStorage
+ INFO [2020-10-15 09:59:30,456] ({main} InterpreterSettingManager.java[<init>]:169) - Using LifecycleManager: org.apache.zeppelin.interpreter.lifecycle.NullLifecycleManager
+ INFO [2020-10-15 09:59:30,697] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: lens
+ INFO [2020-10-15 09:59:30,732] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: hbase
+ WARN [2020-10-15 09:59:30,870] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/${interpreter.name}
+ INFO [2020-10-15 09:59:30,967] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: spark
+ INFO [2020-10-15 09:59:30,987] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: kylin
+ INFO [2020-10-15 09:59:31,003] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: ignite
+ INFO [2020-10-15 09:59:31,035] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: groovy
+ WARN [2020-10-15 09:59:32,537] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/scio
+ INFO [2020-10-15 09:59:32,543] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: flink
+ INFO [2020-10-15 09:59:32,572] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: livy
+ INFO [2020-10-15 09:59:32,575] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: angular
+ INFO [2020-10-15 09:59:32,584] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: alluxio
+ INFO [2020-10-15 09:59:32,605] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: bigquery
+ INFO [2020-10-15 09:59:32,614] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: elasticsearch
+ INFO [2020-10-15 09:59:32,625] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: md
+ INFO [2020-10-15 09:59:32,644] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: jdbc
+ INFO [2020-10-15 09:59:32,672] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: file
+ INFO [2020-10-15 09:59:32,690] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: python
+ WARN [2020-10-15 09:59:32,705] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/lib
+ INFO [2020-10-15 09:59:32,709] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sh
+ INFO [2020-10-15 09:59:32,739] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: neo4j
+ INFO [2020-10-15 09:59:32,751] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: cassandra
+ INFO [2020-10-15 09:59:32,761] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: pig
+ INFO [2020-10-15 09:59:32,775] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sap
+ WARN [2020-10-15 09:59:32,780] ({main} LocalConfigStorage.java[loadInterpreterSettings]:60) - Interpreter Setting file /zeppelin/conf/interpreter.json is not existed
+ INFO [2020-10-15 09:59:32,915] ({main} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 09:59:33,875] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2020-10-15 09:59:34,308] ({main} GitNotebookRepo.java[<init>]:64) - Opening a git repo at '/zeppelin/notebook'
+ INFO [2020-10-15 09:59:34,889] ({main} GitNotebookRepo.java[<init>]:67) - Git repo /zeppelin/notebook/.git does not exist, creating a new one
+ INFO [2020-10-15 09:59:35,023] ({main} NotebookRepoSync.java[<init>]:77) - Instantiate NotebookRepo: org.apache.zeppelin.notebook.repo.GitNotebookRepo
+ WARN [2020-10-15 09:59:35,565] ({main} NotebookAuthorization.java[getInstance]:86) - Notebook authorization module was called without initialization, initializing with default configuration
+ WARN [2020-10-15 09:59:35,565] ({main} LocalConfigStorage.java[loadNotebookAuthorization]:77) - NotebookAuthorization file /zeppelin/conf/notebook-authorization.json is not existed
+ INFO [2020-10-15 09:59:35,567] ({main} Credentials.java[loadFromFile]:121) - /zeppelin/conf/credentials.json
+ INFO [2020-10-15 09:59:35,789] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2020-10-15 09:59:35,814] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2020-10-15 09:59:35,857] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2020-10-15 09:59:35,869] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2020-10-15 09:59:35,871] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2020-10-15 09:59:35,873] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2020-10-15 09:59:35,873] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2020-10-15 09:59:35,873] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2020-10-15 09:59:35,874] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2020-10-15 09:59:37,221] ({main} FolderView.java[createFolder]:107) - Create folder Zeppelin Tutorial
+ INFO [2020-10-15 09:59:37,221] ({main} FolderView.java[createFolder]:107) - Create folder /
+ INFO [2020-10-15 09:59:37,222] ({main} Folder.java[setParent]:169) - Set parent of / to /
+ INFO [2020-10-15 09:59:37,222] ({main} Folder.java[setParent]:169) - Set parent of Zeppelin Tutorial to /
+ INFO [2020-10-15 09:59:37,222] ({main} Folder.java[addNote]:185) - Add note 2BWJFTXKJ to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,235] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,296] ({main} Folder.java[addNote]:185) - Add note 2BYEZ5EVK to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,298] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,320] ({main} Folder.java[addNote]:185) - Add note 2C57UKYWR to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,321] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,389] ({main} Folder.java[addNote]:185) - Add note 2C2AUG798 to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,390] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,413] ({main} Folder.java[addNote]:185) - Add note 2A94M5J1Z to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,414] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,536] ({main} Folder.java[addNote]:185) - Add note 2C35YU814 to folder Zeppelin Tutorial
+ WARN [2020-10-15 09:59:37,537] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-10-15 09:59:37,538] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2020-10-15 09:59:38,702] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 6 notebooks took 1163ms
+ INFO [2020-10-15 09:59:38,702] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 6 indexed in -1s
+ INFO [2020-10-15 09:59:38,705] ({main} Helium.java[loadConf]:103) - Add helium local registry /zeppelin/helium
+ INFO [2020-10-15 09:59:38,707] ({main} Helium.java[loadConf]:100) - Add helium online registry https://s3.amazonaws.com/helium-package/helium.json
+ WARN [2020-10-15 09:59:38,730] ({main} Helium.java[loadConf]:111) - /zeppelin/conf/helium.json does not exists
+ INFO [2020-10-15 09:59:45,841] ({main} ContextHandler.java[doStart]:855) - Started o.e.j.w.WebAppContext@5af97850{zeppelin-web,/,file:///zeppelin/webapps/webapp/,AVAILABLE}{/zeppelin/zeppelin-web-0.8.1.war}
+ INFO [2020-10-15 09:59:46,100] ({main} AbstractConnector.java[doStart]:292) - Started ServerConnector@4c58255{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+ INFO [2020-10-15 09:59:46,100] ({main} Server.java[doStart]:407) - Started @29632ms
+ INFO [2020-10-15 09:59:46,101] ({main} ZeppelinServer.java[main]:249) - Done, zeppelin server started
+ WARN [2020-10-15 09:59:50,684] ({qtp2107447833-12} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2020-10-15 09:59:52,933] ({qtp2107447833-13} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 54212
+ INFO [2020-10-15 11:07:56,804] ({qtp2107447833-12} NotebookServer.java[onClose]:372) - Closed connection to 172.17.0.1 : 54212. (1001) null
+ WARN [2020-10-15 11:07:58,942] ({qtp2107447833-13} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2020-10-15 11:07:59,394] ({qtp2107447833-12} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 54218
+ WARN [2020-10-15 11:08:36,949] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:08:36,961] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:08:36,961] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:08:36,962] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:08:36,962] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:08:36,963] ({qtp2107447833-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:10:15,176] ({qtp2107447833-36} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2A94M5J1Z
+ WARN [2020-10-15 11:10:15,555] ({qtp2107447833-36} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2A94M5J1Z, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:10:15,573] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:15,574] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:15,574] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:15,574] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:15,574] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:15,575] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:19,429] ({qtp2107447833-36} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: spark
+ WARN [2020-10-15 11:10:22,257] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: spark
+ WARN [2020-10-15 11:10:22,259] ({qtp2107447833-36} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: sql
+ WARN [2020-10-15 11:10:22,260] ({qtp2107447833-36} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: sql
+ WARN [2020-10-15 11:10:22,282] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: sql
+ INFO [2020-10-15 11:10:22,831] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:23,197] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:23,470] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:23,724] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:23,948] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:24,211] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:25,506] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:25,650] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:25,968] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:26,186] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:26,493] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:26,744] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:10:41,634] ({qtp2107447833-38} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ WARN [2020-10-15 11:10:41,639] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:41,640] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:41,640] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:41,640] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:41,640] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:10:41,652] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:12:21,140] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:12:21,148] ({qtp2107447833-13} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: spark:shared_process for user: anonymous and note: 2A94M5J1Z
+ INFO [2020-10-15 11:12:21,160] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,160] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,160] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.DepInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,161] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,161] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.IPySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,161] ({qtp2107447833-13} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:21,162] ({qtp2107447833-13} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: spark:shared_process for user: anonymous
+ INFO [2020-10-15 11:12:21,220] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20150210-015259_1403135953 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:12:21,235] ({pool-2-thread-2} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20150210-015259_1403135953, interpreter: , note_id: 2A94M5J1Z, user: anonymous]
+ INFO [2020-10-15 11:12:21,237] ({pool-2-thread-2} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: spark:shared_process
+ INFO [2020-10-15 11:12:21,239] ({pool-2-thread-2} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: spark
+ WARN [2020-10-15 11:12:21,392] ({pool-2-thread-2} SparkInterpreterLauncher.java[setupPropertiesForSparkR]:172) - sparkr.zip is not found, SparkR may not work.
+ INFO [2020-10-15 11:12:21,392] ({pool-2-thread-2} SparkInterpreterLauncher.java[buildEnvFromProperties]:108) - Run Spark under non-secure mode as no keytab and principal is specified
+ INFO [2020-10-15 11:12:21,413] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 38211
+ INFO [2020-10-15 11:12:21,458] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -c, 172.17.0.2, -p, 38211, -r, :, -l, /zeppelin/local-repo/spark, -g, spark]
+ INFO [2020-10-15 11:12:23,578] ({pool-7-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.17.0.2, port:34463)
+ INFO [2020-10-15 11:12:23,927] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2020-10-15 11:12:24,758] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2020-10-15 11:12:24,767] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2020-10-15 11:12:24,919] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2020-10-15 11:12:24,977] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.IPySparkInterpreter
+ INFO [2020-10-15 11:12:25,047] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2020-10-15 11:12:25,058] ({pool-2-thread-2} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2020-10-15 11:12:25,058] ({pool-2-thread-2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group spark:shared_process
+ INFO [2020-10-15 11:12:43,087] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:12:43,101] ({qtp2107447833-40} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ WARN [2020-10-15 11:12:46,500] ({qtp2107447833-38} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: sq
+ WARN [2020-10-15 11:12:46,689] ({qtp2107447833-40} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:12:47,203] ({qtp2107447833-38} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: sh:shared_process for user: anonymous and note: 2A94M5J1Z
+ INFO [2020-10-15 11:12:47,204] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.shell.ShellInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:12:47,204] ({qtp2107447833-38} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: sh:shared_process for user: anonymous
+ INFO [2020-10-15 11:12:51,612] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:12:51,757] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20201015-111242_1232811644 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:12:51,757] ({pool-2-thread-4} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-111242_1232811644, interpreter: sh, note_id: 2A94M5J1Z, user: anonymous]
+ INFO [2020-10-15 11:12:51,788] ({pool-2-thread-4} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: sh:shared_process
+ INFO [2020-10-15 11:12:51,788] ({pool-2-thread-4} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: sh
+ INFO [2020-10-15 11:12:51,789] ({pool-2-thread-4} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 42177
+ INFO [2020-10-15 11:12:52,303] ({pool-2-thread-4} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/sh, -c, 172.17.0.2, -p, 42177, -r, :, -l, /zeppelin/local-repo/sh, -g, sh]
+ INFO [2020-10-15 11:13:00,845] ({pool-9-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.17.0.2, port:35367)
+ INFO [2020-10-15 11:13:00,864] ({pool-2-thread-4} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.shell.ShellInterpreter
+ INFO [2020-10-15 11:13:02,494] ({pool-2-thread-4} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.shell.ShellInterpreter
+ INFO [2020-10-15 11:13:02,494] ({pool-2-thread-4} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group sh:shared_process
+ INFO [2020-10-15 11:13:04,016] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-111242_1232811644 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:13:04,328] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:13:04,361] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20201015-111242_1232811644 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:14:25,179] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20150210-015259_1403135953 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:14:25,664] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:14:25,711] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20150210-015259_1403135953 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:14:49,637] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:14:49,658] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20150210-015302_1492795503 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:14:49,667] ({pool-2-thread-4} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20150210-015302_1492795503, interpreter: sql, note_id: 2A94M5J1Z, user: anonymous]
+ INFO [2020-10-15 11:14:49,693] ({pool-2-thread-4} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ WARN [2020-10-15 11:15:02,076] ({qtp2107447833-38} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:15:07,708] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:07,743] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20201015-111242_1232811644 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:15:07,745] ({pool-2-thread-2} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-111242_1232811644, interpreter: sh, note_id: 2A94M5J1Z, user: anonymous]
+ INFO [2020-10-15 11:15:08,067] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-111242_1232811644 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:15:08,571] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:08,592] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20201015-111242_1232811644 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:15:12,339] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:12,342] ({qtp2107447833-36} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ WARN [2020-10-15 11:15:14,884] ({qtp2107447833-38} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:15:15,141] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20150210-015302_1492795503 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:15:15,351] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:15,366] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20150210-015302_1492795503 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:15:16,152] ({qtp2107447833-38} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: python:shared_process for user: anonymous and note: 2A94M5J1Z
+ INFO [2020-10-15 11:15:16,153] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:15:16,154] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.IPythonInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:15:16,166] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonInterpreterPandasSql created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:15:16,166] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonCondaInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:15:16,167] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonDockerInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:15:16,167] ({qtp2107447833-38} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: python:shared_process for user: anonymous
+ INFO [2020-10-15 11:15:16,533] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:22,121] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:22,139] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20201015-111511_200832792 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:15:22,140] ({pool-2-thread-6} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-111511_200832792, interpreter: python, note_id: 2A94M5J1Z, user: anonymous]
+ INFO [2020-10-15 11:15:22,141] ({pool-2-thread-6} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: python:shared_process
+ INFO [2020-10-15 11:15:22,141] ({pool-2-thread-6} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: python
+ INFO [2020-10-15 11:15:22,142] ({pool-2-thread-6} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 39019
+ INFO [2020-10-15 11:15:22,643] ({pool-2-thread-6} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/python, -c, 172.17.0.2, -p, 39019, -r, :, -l, /zeppelin/local-repo/python, -g, python]
+ INFO [2020-10-15 11:15:24,996] ({pool-11-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.17.0.2, port:40535)
+ INFO [2020-10-15 11:15:25,010] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2020-10-15 11:15:25,558] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.IPythonInterpreter
+ INFO [2020-10-15 11:15:25,577] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonInterpreterPandasSql
+ INFO [2020-10-15 11:15:25,582] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonCondaInterpreter
+ INFO [2020-10-15 11:15:25,592] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonDockerInterpreter
+ INFO [2020-10-15 11:15:25,598] ({pool-2-thread-6} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2020-10-15 11:15:25,599] ({pool-2-thread-6} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group python:shared_process
+ INFO [2020-10-15 11:15:40,230] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-111511_200832792 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:15:40,370] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:40,415] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20201015-111511_200832792 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:15:56,014] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:57,915] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:58,219] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:58,377] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:59,259] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:15:59,569] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:00,147] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:00,641] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:00,773] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:01,462] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:01,691] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:01,826] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:04,297] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:07,476] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:09,459] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:11,446] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:15,140] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:19,123] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:37,171] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:38,652] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:16:44,867] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:17:03,647] ({qtp2107447833-36} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:21:18,765] ({qtp2107447833-38} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2A94M5J1Z
+ WARN [2020-10-15 11:21:18,771] ({qtp2107447833-38} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2A94M5J1Z, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:21:18,898] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:18,898] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:18,899] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:18,899] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:18,899] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:18,899] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:21:19,266] ({qtp2107447833-14} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: md:shared_process for user: anonymous and note: 2A94M5J1Z
+ INFO [2020-10-15 11:21:19,267] ({qtp2107447833-14} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.markdown.Markdown created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:21:19,268] ({qtp2107447833-14} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: md:shared_process for user: anonymous
+ INFO [2020-10-15 11:21:21,942] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:21:22,265] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ WARN [2020-10-15 11:21:38,356] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:38,356] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:38,356] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:38,356] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:38,357] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:38,357] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:21:57,597] ({qtp2107447833-40} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ WARN [2020-10-15 11:21:57,599] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:57,599] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:57,599] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:57,599] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:57,599] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:21:57,600] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:22:07,661] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:22:08,334] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ INFO [2020-10-15 11:22:35,821] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2A94M5J1Z
+ WARN [2020-10-15 11:24:42,408] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:42,409] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:42,409] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:42,410] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:42,410] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:42,410] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:24:42,411] ({qtp2107447833-40} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 11:24:42,430] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FNA5ABZJ
+ INFO [2020-10-15 11:24:42,460] ({qtp2107447833-40} FolderView.java[onNoteNameChanged]:205) - Note name changed: 2FNA5ABZJ -> Exercise 0
+ INFO [2020-10-15 11:24:42,461] ({qtp2107447833-40} Folder.java[addNote]:185) - Add note 2FNA5ABZJ to folder /
+ INFO [2020-10-15 11:24:42,613] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FNA5ABZJ
+ INFO [2020-10-15 11:24:42,755] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FNA5ABZJ
+ INFO [2020-10-15 11:24:49,096] ({qtp2107447833-38} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2FNA5ABZJ
+ WARN [2020-10-15 11:24:49,100] ({qtp2107447833-38} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FNA5ABZJ, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:24:49,199] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:49,200] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:49,200] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:49,200] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:49,200] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:24:49,200] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,287] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,287] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,288] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,288] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,288] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:48,288] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,819] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,819] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,819] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,819] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,819] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:56,820] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:25:56,820] ({qtp2107447833-12} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 11:25:56,826] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:25:56,890] ({qtp2107447833-12} FolderView.java[onNoteNameChanged]:205) - Note name changed: 2FP2852NZ -> Amazon
+ INFO [2020-10-15 11:25:56,890] ({qtp2107447833-12} Folder.java[addNote]:185) - Add note 2FP2852NZ to folder /
+ INFO [2020-10-15 11:25:56,903] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:25:56,943] ({qtp2107447833-131} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2FP2852NZ
+ WARN [2020-10-15 11:25:56,947] ({qtp2107447833-131} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FP2852NZ, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:25:57,182] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:57,184] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:57,184] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:57,185] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:57,186] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:25:57,186] ({qtp2107447833-12} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:26:14,235] ({qtp2107447833-131} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:26:14,246] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:26:14,292] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:26:14,299] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112556_285060115 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ INFO [2020-10-15 11:26:14,300] ({pool-2-thread-4} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112556_285060115, interpreter: md, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:26:14,300] ({pool-2-thread-4} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: md:shared_process
+ INFO [2020-10-15 11:26:14,301] ({pool-2-thread-4} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: md
+ INFO [2020-10-15 11:26:14,301] ({pool-2-thread-4} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 33327
+ INFO [2020-10-15 11:26:14,802] ({pool-2-thread-4} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/md, -c, 172.17.0.2, -p, 33327, -r, :, -l, /zeppelin/local-repo/md, -g, md]
+ INFO [2020-10-15 11:26:16,067] ({pool-13-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.17.0.2, port:41585)
+ INFO [2020-10-15 11:26:16,078] ({pool-2-thread-4} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.markdown.Markdown
+ INFO [2020-10-15 11:26:16,634] ({pool-2-thread-4} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.markdown.Markdown
+ INFO [2020-10-15 11:26:16,634] ({pool-2-thread-4} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group md:shared_process
+ INFO [2020-10-15 11:26:18,271] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112556_285060115 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:26:18,287] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:26:18,290] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112556_285060115 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ WARN [2020-10-15 11:26:24,960] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: l
+ WARN [2020-10-15 11:26:25,040] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: ls
+ WARN [2020-10-15 11:26:25,443] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: l
+ WARN [2020-10-15 11:26:25,905] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:26:28,744] ({qtp2107447833-12} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:26:28,760] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:26:28,766] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112614_132259291 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:26:28,766] ({pool-2-thread-7} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112614_132259291, interpreter: sh, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:26:28,838] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112614_132259291 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:26:28,870] ({pool-2-thread-7} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:26:28,882] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112614_132259291 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:27:02,071] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:27:04,813] ({qtp2107447833-15} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:27:04,834] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:27:04,839] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112628_1781489946 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:27:04,839] ({pool-2-thread-8} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112628_1781489946, interpreter: sh, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:27:04,930] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112628_1781489946 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:27:04,943] ({pool-2-thread-8} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:27:04,955] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112628_1781489946 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:28:23,640] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:28:27,635] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:28:40,274] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:28:45,593] ({qtp2107447833-40} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:28:45,610] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:28:45,613] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112704_643090947 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:28:45,614] ({pool-2-thread-6} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112704_643090947, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:28:53,982] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112704_643090947 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:28:53,998] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:28:54,005] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112704_643090947 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:29:10,148] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:20,378] ({qtp2107447833-14} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:29:20,386] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:20,397] ({pool-2-thread-14} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112845_1454399242 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:29:20,398] ({pool-2-thread-14} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112845_1454399242, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:29:27,631] ({pool-2-thread-14} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112845_1454399242 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:29:27,693] ({pool-2-thread-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:27,725] ({pool-2-thread-14} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112845_1454399242 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:29:28,285] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:31,586] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:33,276] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:29:35,762] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ WARN [2020-10-15 11:29:47,153] ({qtp2107447833-38} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2020-10-15 11:29:47,681] ({qtp2107447833-40} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 54466
+ INFO [2020-10-15 11:30:18,426] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:23,540] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:24,045] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:24,125] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:25,323] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:25,727] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:29,084] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:48,489] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:48,560] ({qtp2107447833-13} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:30:48,564] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112845_1454399242 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:30:48,565] ({pool-2-thread-10} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112845_1454399242, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:30:49,025] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:49,088] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112920_1129778069 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:30:49,088] ({pool-2-thread-4} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112920_1129778069, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:30:55,916] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112845_1454399242 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:30:56,043] ({pool-2-thread-10} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:56,116] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112845_1454399242 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:30:57,202] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112920_1129778069 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:30:57,234] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:30:57,249] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112920_1129778069 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:31:09,363] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:13,054] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:37,358] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:40,029] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:40,042] ({pool-2-thread-11} SchedulerFactory.java[jobStarted]:114) - Job 20201015-112920_1129778069 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:31:40,043] ({pool-2-thread-11} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-112920_1129778069, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:31:41,002] ({pool-2-thread-11} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-112920_1129778069 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:31:41,073] ({pool-2-thread-11} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:41,088] ({pool-2-thread-11} SchedulerFactory.java[jobFinished]:120) - Job 20201015-112920_1129778069 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:31:47,012] ({qtp2107447833-12} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:31:47,033] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:47,038] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20201015-113048_201566522 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:31:47,038] ({pool-2-thread-7} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-113048_201566522, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:31:47,840] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-113048_201566522 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:31:47,902] ({pool-2-thread-7} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:31:47,918] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20201015-113048_201566522 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:32:04,343] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:39,489] ({qtp2107447833-131} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:32:39,513] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:39,527] ({pool-2-thread-12} SchedulerFactory.java[jobStarted]:114) - Job 20201015-113147_2004074234 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:32:39,527] ({pool-2-thread-12} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-113147_2004074234, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:32:46,815] ({pool-2-thread-12} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-113147_2004074234 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:32:46,955] ({pool-2-thread-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:47,053] ({pool-2-thread-12} SchedulerFactory.java[jobFinished]:120) - Job 20201015-113147_2004074234 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:32:48,289] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:51,096] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:52,386] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:54,206] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:56,848] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:56,898] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:57,329] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:57,383] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:58,031] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:59,874] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:32:59,939] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:00,483] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:00,536] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:01,017] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:01,090] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:01,607] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:01,659] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:01,766] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:02,374] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:02,441] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:06,919] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:06,973] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:07,570] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:07,631] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:07,710] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:08,248] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:08,311] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:09,500] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:11,201] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:11,586] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:11,770] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:11,984] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:12,305] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:12,585] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:13,874] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:13,919] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:14,188] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:16,218] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:16,742] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:16,824] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:17,229] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:19,399] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:19,634] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:20,241] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:20,607] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:20,894] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:22,406] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:24,648] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:26,360] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:29,211] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:31,360] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:31,720] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:31,819] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:32,204] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:33,845] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:35,137] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:36,141] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:37,595] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:38,716] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:40,431] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:42,117] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:44,219] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:45,564] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:47,633] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:48,027] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:51,033] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:51,451] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:33:51,960] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:10,483] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:10,487] ({qtp2107447833-131} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:34:14,376] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:14,380] ({pool-2-thread-20} SchedulerFactory.java[jobStarted]:114) - Job 20201015-113410_915710982 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:34:14,381] ({pool-2-thread-20} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-113410_915710982, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:34:16,849] ({pool-2-thread-20} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-113410_915710982 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:34:16,972] ({pool-2-thread-20} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:17,003] ({pool-2-thread-20} SchedulerFactory.java[jobFinished]:120) - Job 20201015-113410_915710982 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:34:34,775] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:34,795] ({pool-2-thread-13} SchedulerFactory.java[jobStarted]:114) - Job 20201015-113410_915710982 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:34:34,796] ({pool-2-thread-13} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-113410_915710982, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:34:37,161] ({pool-2-thread-13} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-113410_915710982 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:34:37,216] ({pool-2-thread-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:37,232] ({pool-2-thread-13} SchedulerFactory.java[jobFinished]:120) - Job 20201015-113410_915710982 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:34:40,095] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:40,139] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20201015-113410_915710982 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:34:40,139] ({pool-2-thread-6} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-113410_915710982, interpreter: spark, note_id: 2FP2852NZ, user: anonymous]
+ INFO [2020-10-15 11:34:41,980] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-113410_915710982 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:34:42,053] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2FP2852NZ
+ INFO [2020-10-15 11:34:42,076] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20201015-113410_915710982 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ WARN [2020-10-15 11:39:43,253] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:43,254] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:43,296] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:43,296] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:43,296] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:43,296] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:39:43,297] ({qtp2107447833-131} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 11:39:43,301] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FQHC6PTA
+ INFO [2020-10-15 11:39:43,316] ({qtp2107447833-131} FolderView.java[onNoteNameChanged]:205) - Note name changed: 2FQHC6PTA -> Exercise 1
+ INFO [2020-10-15 11:39:43,317] ({qtp2107447833-131} Folder.java[addNote]:185) - Add note 2FQHC6PTA to folder /
+ INFO [2020-10-15 11:39:43,484] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FQHC6PTA
+ INFO [2020-10-15 11:39:43,594] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FQHC6PTA
+ INFO [2020-10-15 11:39:51,474] ({qtp2107447833-13} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2FQHC6PTA
+ WARN [2020-10-15 11:39:51,498] ({qtp2107447833-13} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FQHC6PTA, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:39:51,620] ({qtp2107447833-131} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:40:03,593] ({qtp2107447833-192} VFSNotebookRepo.java[save]:196) - Saving note:2FQHC6PTA
+ WARN [2020-10-15 11:40:44,687] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:44,688] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:44,688] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:44,688] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:44,688] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:44,688] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:40:44,689] ({qtp2107447833-40} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 11:40:44,703] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:40:44,706] ({qtp2107447833-40} FolderView.java[onNoteNameChanged]:205) - Note name changed: 2FP9UARNN -> Exercise 1
+ INFO [2020-10-15 11:40:44,706] ({qtp2107447833-40} Folder.java[addNote]:185) - Add note 2FP9UARNN to folder /
+ INFO [2020-10-15 11:40:44,985] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:40:45,122] ({qtp2107447833-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:40:47,370] ({qtp2107447833-192} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2FP9UARNN
+ WARN [2020-10-15 11:40:47,394] ({qtp2107447833-192} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FP9UARNN, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:40:47,522] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:47,522] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:47,522] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:47,523] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:47,523] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:40:47,523] ({qtp2107447833-40} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:41:00,018] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:41:57,931] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:42:12,418] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:42:17,606] ({qtp2107447833-192} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:42:24,979] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:42:28,788] ({qtp2107447833-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:46:00,058] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:46:43,696] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ WARN [2020-10-15 11:49:03,823] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:49:11,560] ({qtp2107447833-192} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ WARN [2020-10-15 11:50:40,992] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:50:40,993] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:50:40,993] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:50:40,993] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:50:40,993] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:50:40,993] ({qtp2107447833-194} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:52:06,410] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:52:13,383] ({qtp2107447833-15} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:52:13,430] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:52:13,445] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:52:13,445] ({pool-2-thread-9} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: sh, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:52:13,527] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text bash: !python: command not found
+
+%text ExitValue: 127
+ INFO [2020-10-15 11:52:13,638] ({pool-2-thread-9} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:52:13,641] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ WARN [2020-10-15 11:52:18,491] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: h
+ WARN [2020-10-15 11:52:19,581] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ INFO [2020-10-15 11:52:22,313] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:52:22,343] ({pool-2-thread-14} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-15 11:52:22,344] ({pool-2-thread-14} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: , note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:52:22,832] ({pool-2-thread-14} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text <console>:34: error: object pip is not a member of package python
+       python pip install seaborn
+              ^
+<console>:34: error: not found: value install
+       python pip install seaborn
+                  ^
+<console>:31: error: not found: value %
+       %
+       ^
+
+ INFO [2020-10-15 11:52:23,055] ({pool-2-thread-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:52:23,073] ({pool-2-thread-14} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ WARN [2020-10-15 11:52:33,251] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-15 11:52:38,029] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ WARN [2020-10-15 11:53:00,173] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ WARN [2020-10-15 11:53:01,213] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ WARN [2020-10-15 11:53:01,373] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: py
+ WARN [2020-10-15 11:53:01,457] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyt
+ WARN [2020-10-15 11:53:01,590] ({qtp2107447833-131} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyth
+ WARN [2020-10-15 11:53:01,669] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pytho
+ INFO [2020-10-15 11:53:06,329] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:06,345] ({pool-2-thread-15} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:53:06,345] ({pool-2-thread-15} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:53:07,077] ({pool-2-thread-15} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text [0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-3-085c0287ecb5>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0mseaborn[0m[0;34m[0m[0m
+[0m
+[0;31mImportError[0m: No module named seaborn
+ INFO [2020-10-15 11:53:07,139] ({pool-2-thread-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:07,175] ({pool-2-thread-15} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:53:14,887] ({qtp2107447833-131} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:53:14,923] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:14,938] ({pool-2-thread-16} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115213_1788323792 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:53:14,939] ({pool-2-thread-16} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115213_1788323792, interpreter: sh, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:53:20,377] ({pool-2-thread-16} NotebookServer.java[afterStatusChange]:2316) - Job 20201015-115213_1788323792 is finished, status: ERROR, exception: null, result: %text Collecting seaborn
+  Downloading https://files.pythonhosted.org/packages/6f/c0/666ea11c38c8b551398cfb08fe0f700a13e099a2953447888bc2ef4bb255/seaborn-0.11.0.tar.gz (259kB)
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-XdZAtb/seaborn/setup.py", line 66, in <module>
+        raise RuntimeError("seaborn requires python >= 3.6.")
+    RuntimeError: seaborn requires python >= 3.6.
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-XdZAtb/seaborn/
+You are using pip version 8.1.2, however version 20.2.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+%text ExitValue: 1
+ INFO [2020-10-15 11:53:20,478] ({pool-2-thread-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:20,483] ({pool-2-thread-16} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115213_1788323792 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:53:37,851] ({qtp2107447833-12} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:53:37,928] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:37,960] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:53:37,960] ({pool-2-thread-10} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: sh, note_id: 2FP9UARNN, user: anonymous]
+ INFO [2020-10-15 11:53:38,035] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-115314_889192186 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:53:38,115] ({pool-2-thread-10} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:53:38,126] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:54:09,271] ({qtp2107447833-131} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-15 11:54:09,335] ({qtp2107447833-131} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:54:09,363] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115337_1216685265 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-15 11:54:09,363] ({pool-2-thread-4} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115337_1216685265, interpreter: sh, note_id: 2FP9UARNN, user: anonymous]
+ INFO [2020-10-15 11:54:09,618] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-115337_1216685265 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:54:09,709] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:54:09,723] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115337_1216685265 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ WARN [2020-10-15 11:54:17,149] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:54:17,149] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:54:17,150] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:54:17,150] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:54:17,150] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:54:17,151] ({qtp2107447833-192} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:54:41,881] ({qtp2107447833-192} InterpreterRestApi.java[updateSetting]:137) - Update interpreterSetting python
+ INFO [2020-10-15 11:54:41,891] ({qtp2107447833-192} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ INFO [2020-10-15 11:54:41,891] ({qtp2107447833-192} ManagedInterpreterGroup.java[close]:89) - Close InterpreterGroup: python:shared_process
+ INFO [2020-10-15 11:54:41,892] ({qtp2107447833-192} ManagedInterpreterGroup.java[close]:100) - Close Session: shared_session for interpreter setting: python
+ WARN [2020-10-15 11:54:41,952] ({qtp2107447833-192} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.python.IPythonInterpreter
+ WARN [2020-10-15 11:54:41,953] ({qtp2107447833-192} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.python.PythonInterpreterPandasSql
+ WARN [2020-10-15 11:54:41,954] ({qtp2107447833-192} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.python.PythonCondaInterpreter
+ WARN [2020-10-15 11:54:41,966] ({qtp2107447833-192} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.python.PythonDockerInterpreter
+ INFO [2020-10-15 11:54:41,970] ({qtp2107447833-192} ManagedInterpreterGroup.java[close]:105) - Remove this InterpreterGroup: python:shared_process as all the sessions are closed
+ INFO [2020-10-15 11:54:41,970] ({qtp2107447833-192} ManagedInterpreterGroup.java[close]:108) - Kill RemoteInterpreterProcess
+ INFO [2020-10-15 11:54:41,975] ({qtp2107447833-192} RemoteInterpreterManagedProcess.java[stop]:220) - Kill interpreter process
+ERROR [2020-10-15 11:54:42,121] ({Thread-40} RemoteInterpreterEventPoller.java[run]:257) - Can not get RemoteInterpreterEvent because it is shutdown.
+ERROR [2020-10-15 11:54:42,122] ({pool-10-thread-1} AppendOutputRunner.java[run]:68) - Wait for OutputBuffer queue interrupted: null
+ WARN [2020-10-15 11:54:44,490] ({qtp2107447833-192} RemoteInterpreterManagedProcess.java[stop]:230) - ignore the exception when shutting down
+ INFO [2020-10-15 11:54:44,491] ({qtp2107447833-192} RemoteInterpreterManagedProcess.java[stop]:238) - Remote process terminated
+ INFO [2020-10-15 11:54:44,494] ({qtp2107447833-192} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-10-15 11:54:44,530] ({Exec Default Executor} RemoteInterpreterManagedProcess.java[onProcessFailed]:250) - Interpreter process failed {}
+org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+	at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+	at java.lang.Thread.run(Thread.java:748)
+ INFO [2020-10-15 11:55:04,274] ({qtp2107447833-38} InterpreterRestApi.java[restartSetting]:180) - Restart interpreterSetting python, msg=
+ INFO [2020-10-15 11:55:04,277] ({qtp2107447833-38} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ INFO [2020-10-15 11:55:13,142] ({qtp2107447833-192} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 54218 : anonymous : GET_NOTE : 2FP9UARNN
+ WARN [2020-10-15 11:55:13,147] ({qtp2107447833-192} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FP9UARNN, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-15 11:55:13,394] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:55:13,394] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:55:13,394] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:55:13,395] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:55:13,395] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-15 11:55:13,395] ({qtp2107447833-38} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-15 11:55:14,158] ({qtp2107447833-38} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: python:shared_process for user: anonymous and note: 2FP9UARNN
+ INFO [2020-10-15 11:55:14,159] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:55:14,159] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.IPythonInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:55:14,160] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonInterpreterPandasSql created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:55:14,160] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonCondaInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:55:14,160] ({qtp2107447833-38} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.python.PythonDockerInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-10-15 11:55:14,161] ({qtp2107447833-38} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: python:shared_process for user: anonymous
+ WARN [2020-10-15 11:55:27,147] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ WARN [2020-10-15 11:55:27,279] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: py
+ WARN [2020-10-15 11:55:27,364] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyt
+ WARN [2020-10-15 11:55:27,450] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyth
+ WARN [2020-10-15 11:55:27,572] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pytho
+ INFO [2020-10-15 11:55:28,631] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:28,639] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:55:28,640] ({pool-2-thread-8} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ INFO [2020-10-15 11:55:28,640] ({pool-2-thread-8} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: python:shared_process
+ INFO [2020-10-15 11:55:28,655] ({pool-2-thread-8} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: python
+ INFO [2020-10-15 11:55:28,655] ({pool-2-thread-8} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 45391
+ INFO [2020-10-15 11:55:29,156] ({pool-2-thread-8} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/python, -c, 172.17.0.2, -p, 45391, -r, :, -l, /zeppelin/local-repo/python, -g, python]
+ INFO [2020-10-15 11:55:31,275] ({pool-16-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.17.0.2, port:36015)
+ INFO [2020-10-15 11:55:31,279] ({pool-2-thread-8} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2020-10-15 11:55:31,740] ({pool-2-thread-8} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.IPythonInterpreter
+ INFO [2020-10-15 11:55:31,762] ({pool-2-thread-8} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonInterpreterPandasSql
+ INFO [2020-10-15 11:55:31,766] ({pool-2-thread-8} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonCondaInterpreter
+ INFO [2020-10-15 11:55:31,777] ({pool-2-thread-8} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.python.PythonDockerInterpreter
+ INFO [2020-10-15 11:55:31,780] ({pool-2-thread-8} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2020-10-15 11:55:31,780] ({pool-2-thread-8} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group python:shared_process
+ WARN [2020-10-15 11:55:33,613] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2316) - Job 20201015-115314_889192186 is finished, status: ERROR, exception: null, result: %text Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'python' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 319, in <module>
+    raise Exception(traceback.format_exc())
+Exception: Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'python' is not defined
+
+
+ INFO [2020-10-15 11:55:33,703] ({pool-2-thread-8} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:33,717] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ WARN [2020-10-15 11:55:37,779] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pytho
+ WARN [2020-10-15 11:55:37,940] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyth
+ WARN [2020-10-15 11:55:38,095] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyt
+ WARN [2020-10-15 11:55:38,276] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: py
+ WARN [2020-10-15 11:55:38,469] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ WARN [2020-10-15 11:55:39,823] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ WARN [2020-10-15 11:55:40,117] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: py
+ WARN [2020-10-15 11:55:40,226] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyt
+ WARN [2020-10-15 11:55:40,380] ({qtp2107447833-194} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyth
+ WARN [2020-10-15 11:55:40,458] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pytho
+ INFO [2020-10-15 11:55:48,291] ({qtp2107447833-194} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:48,323] ({pool-2-thread-20} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:55:48,324] ({pool-2-thread-20} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:55:48,387] ({pool-2-thread-20} NotebookServer.java[afterStatusChange]:2316) - Job 20201015-115314_889192186 is finished, status: ERROR, exception: null, result: %text Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'sys' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 319, in <module>
+    raise Exception(traceback.format_exc())
+Exception: Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'sys' is not defined
+
+
+ INFO [2020-10-15 11:55:48,523] ({pool-2-thread-20} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:48,586] ({pool-2-thread-20} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:55:54,841] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:54,854] ({pool-2-thread-21} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:55:54,858] ({pool-2-thread-21} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:55:54,892] ({pool-2-thread-21} NotebookServer.java[afterStatusChange]:2316) - Job 20201015-115314_889192186 is finished, status: ERROR, exception: null, result: %text Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'sys' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 319, in <module>
+    raise Exception(traceback.format_exc())
+Exception: Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 312, in <module>
+    exec(code, _zcUserQueryNameSpace)
+  File "<stdin>", line 1, in <module>
+NameError: name 'sys' is not defined
+
+
+ INFO [2020-10-15 11:55:54,991] ({pool-2-thread-21} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:55:55,021] ({pool-2-thread-21} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ WARN [2020-10-15 11:56:22,841] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: p
+ WARN [2020-10-15 11:56:23,032] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: py
+ WARN [2020-10-15 11:56:23,175] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyt
+ WARN [2020-10-15 11:56:23,310] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyth
+ WARN [2020-10-15 11:56:23,446] ({qtp2107447833-12} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pytho
+ INFO [2020-10-15 11:56:24,113] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:56:24,154] ({pool-2-thread-38} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:56:24,155] ({pool-2-thread-38} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ INFO [2020-10-15 11:56:24,217] ({pool-2-thread-38} NotebookServer.java[afterStatusChange]:2314) - Job 20201015-115314_889192186 is finished successfully, status: FINISHED
+ INFO [2020-10-15 11:56:24,349] ({pool-2-thread-38} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:56:24,364] ({pool-2-thread-38} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:56:51,043] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:56:51,058] ({pool-2-thread-22} SchedulerFactory.java[jobStarted]:114) - Job 20201015-115314_889192186 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:56:51,058] ({pool-2-thread-22} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20201015-115314_889192186, interpreter: python, note_id: 2FP9UARNN, user: anonymous]
+ WARN [2020-10-15 11:56:51,194] ({pool-2-thread-22} NotebookServer.java[afterStatusChange]:2316) - Job 20201015-115314_889192186 is finished, status: ERROR, exception: null, result: %text Traceback (most recent call last):
+  File "/tmp/zeppelin_python-7653290335984339776.py", line 295, in <module>
+    code = compile('\n'.join(final_code), '<stdin>', 'exec', ast.PyCF_ONLY_AST, 1)
+  File "<stdin>", line 1
+    !pip install seaborn
+    ^
+SyntaxError: invalid syntax
+
+ INFO [2020-10-15 11:56:51,463] ({pool-2-thread-22} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:56:51,469] ({pool-2-thread-22} SchedulerFactory.java[jobFinished]:120) - Job 20201015-115314_889192186 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-15 11:57:05,787] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ WARN [2020-10-15 11:57:13,314] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ WARN [2020-10-15 11:57:13,473] ({qtp2107447833-14} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: sp
+ WARN [2020-10-15 11:57:13,603] ({qtp2107447833-15} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: spar
+ INFO [2020-10-15 11:57:14,627] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 11:57:27,920] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP9UARNN
+ INFO [2020-10-15 12:39:58,952] ({qtp2107447833-192} NotebookServer.java[onClose]:372) - Closed connection to 172.17.0.1 : 54466. (1001) null
+ INFO [2020-10-15 12:40:01,025] ({qtp2107447833-12} NotebookServer.java[onClose]:372) - Closed connection to 172.17.0.1 : 54218. (1001) null

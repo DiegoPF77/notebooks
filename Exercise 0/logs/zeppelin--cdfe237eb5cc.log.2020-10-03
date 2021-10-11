@@ -1,0 +1,213 @@
+ WARN [2020-10-03 14:38:42,284] ({qtp2107447833-13} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2020-10-03 14:38:42,877] ({qtp2107447833-14} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 47164
+ INFO [2020-10-03 14:38:46,672] ({qtp2107447833-373} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 47164 : anonymous : GET_NOTE : 2FP4JVE4A
+ WARN [2020-10-03 14:38:46,682] ({qtp2107447833-373} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FP4JVE4A, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-10-03 14:38:47,050] ({qtp2107447833-141} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-10-03 14:39:05,777] ({qtp2107447833-373} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:06,830] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:14,745] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:14,793] ({pool-2-thread-31} SchedulerFactory.java[jobStarted]:114) - Job 20200212-211017_427079505 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ INFO [2020-10-03 14:39:14,799] ({pool-2-thread-31} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-211017_427079505, interpreter: md, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:14,962] ({pool-2-thread-31} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-211017_427079505 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:15,229] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:15,253] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:114) - Job 20200212-211209_383425838 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ INFO [2020-10-03 14:39:15,253] ({pool-2-thread-10} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-211209_383425838, interpreter: md, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:15,360] ({pool-2-thread-31} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:15,431] ({pool-2-thread-31} SchedulerFactory.java[jobFinished]:120) - Job 20200212-211017_427079505 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ INFO [2020-10-03 14:39:15,578] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-211209_383425838 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:15,944] ({pool-2-thread-10} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:15,949] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:120) - Job 20200212-211209_383425838 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-md:shared_process-shared_session
+ INFO [2020-10-03 14:39:15,981] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:16,030] ({pool-2-thread-32} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212102_1279039025 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:39:16,030] ({pool-2-thread-32} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212102_1279039025, interpreter: sh, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:16,568] ({pool-2-thread-32} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212102_1279039025 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:16,799] ({pool-2-thread-32} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:16,822] ({pool-2-thread-32} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212102_1279039025 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:39:16,832] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:16,848] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212325_1375517377 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:39:16,849] ({pool-2-thread-3} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212325_1375517377, interpreter: sh, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:18,014] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212325_1375517377 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:18,296] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:18,312] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:18,325] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212325_1375517377 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:39:18,341] ({pool-2-thread-19} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212422_497822727 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:18,342] ({pool-2-thread-19} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212422_497822727, interpreter: spark, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:24,099] ({pool-2-thread-19} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212422_497822727 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:24,348] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:24,351] ({pool-2-thread-19} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:24,367] ({pool-2-thread-19} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212422_497822727 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:24,382] ({pool-2-thread-33} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212817_29379565 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:24,394] ({pool-2-thread-33} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212817_29379565, interpreter: sql, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:25,473] ({pool-2-thread-33} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212817_29379565 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:25,712] ({pool-2-thread-33} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:25,727] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:25,729] ({pool-2-thread-33} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212817_29379565 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:25,750] ({pool-2-thread-34} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212807_1745051934 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:25,750] ({pool-2-thread-34} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212807_1745051934, interpreter: sql, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:25,923] ({pool-2-thread-34} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212807_1745051934 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:26,181] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:26,267] ({pool-2-thread-34} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:26,275] ({pool-2-thread-63} SchedulerFactory.java[jobStarted]:114) - Job 20200212-212541_1942445487 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:26,275] ({pool-2-thread-63} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-212541_1942445487, interpreter: sql, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:26,364] ({pool-2-thread-34} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212807_1745051934 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:26,942] ({pool-2-thread-63} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-212541_1942445487 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:27,108] ({pool-2-thread-63} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:27,122] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:27,160] ({pool-2-thread-63} SchedulerFactory.java[jobFinished]:120) - Job 20200212-212541_1942445487 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:27,180] ({pool-2-thread-35} SchedulerFactory.java[jobStarted]:114) - Job 20200212-213634_1744936228 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:27,181] ({pool-2-thread-35} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-213634_1744936228, interpreter: sql, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:32,037] ({pool-2-thread-35} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-213634_1744936228 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:32,342] ({pool-2-thread-35} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:32,395] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:32,408] ({pool-2-thread-35} SchedulerFactory.java[jobFinished]:120) - Job 20200212-213634_1744936228 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:32,455] ({pool-2-thread-20} SchedulerFactory.java[jobStarted]:114) - Job 20200212-213414_276391379 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:32,466] ({pool-2-thread-20} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200212-213414_276391379, interpreter: sql, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:39:39,553] ({pool-2-thread-20} NotebookServer.java[afterStatusChange]:2314) - Job 20200212-213414_276391379 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:39:39,681] ({pool-2-thread-20} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:39,716] ({pool-2-thread-20} SchedulerFactory.java[jobFinished]:120) - Job 20200212-213414_276391379 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-10-03 14:39:39,816] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:39,842] ({pool-2-thread-36} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:39:39,856] ({pool-2-thread-36} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ WARN [2020-10-03 14:39:40,683] ({pool-2-thread-36} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text [0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-9-74c80879e920>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0mseaborn[0m [0;32mas[0m [0msns[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;32mimport[0m [0mmatplotlib[0m[0;34m.[0m[0mpyplot[0m [0;32mas[0m [0mplt[0m[0;34m[0m[0m
+[1;32m      3[0m [0;32mimport[0m [0mpandas[0m [0;32mas[0m [0mpd[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[1;32m      5[0m [0;34m[0m[0m
+
+[0;31mImportError[0m: No module named seaborn
+ INFO [2020-10-03 14:39:40,781] ({pool-2-thread-36} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:40,786] ({pool-2-thread-36} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:39:49,378] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:39:58,629] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:08,022] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:08,058] ({pool-2-thread-67} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:40:08,059] ({pool-2-thread-67} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:40:16,141] ({pool-2-thread-67} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035217_1824235860 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:40:16,237] ({pool-2-thread-67} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:16,278] ({pool-2-thread-67} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:40:21,022] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:21,056] ({pool-2-thread-21} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:40:21,058] ({pool-2-thread-21} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:40:23,645] ({pool-2-thread-21} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035217_1824235860 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:40:23,755] ({pool-2-thread-21} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:23,759] ({pool-2-thread-21} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:40:30,383] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:34,061] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:34,072] ({pool-2-thread-37} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:40:34,088] ({pool-2-thread-37} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ WARN [2020-10-03 14:40:34,467] ({pool-2-thread-37} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text [0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-12-74c80879e920>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0mseaborn[0m [0;32mas[0m [0msns[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;32mimport[0m [0mmatplotlib[0m[0;34m.[0m[0mpyplot[0m [0;32mas[0m [0mplt[0m[0;34m[0m[0m
+[1;32m      3[0m [0;32mimport[0m [0mpandas[0m [0;32mas[0m [0mpd[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[1;32m      5[0m [0;34m[0m[0m
+
+[0;31mImportError[0m: No module named seaborn
+ INFO [2020-10-03 14:40:34,538] ({pool-2-thread-37} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:40:34,554] ({pool-2-thread-37} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:49:54,271] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:49:54,309] ({pool-2-thread-70} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:49:54,309] ({pool-2-thread-70} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:50:00,342] ({pool-2-thread-70} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035217_1824235860 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:50:00,379] ({pool-2-thread-70} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:50:00,385] ({pool-2-thread-70} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:50:06,874] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:50:06,888] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:50:06,889] ({pool-2-thread-5} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ WARN [2020-10-03 14:50:07,030] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2316) - Job 20200226-234351_1863175723 is finished, status: ERROR, exception: null, result: %text [0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-14-74c80879e920>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0mseaborn[0m [0;32mas[0m [0msns[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;32mimport[0m [0mmatplotlib[0m[0;34m.[0m[0mpyplot[0m [0;32mas[0m [0mplt[0m[0;34m[0m[0m
+[1;32m      3[0m [0;32mimport[0m [0mpandas[0m [0;32mas[0m [0mpd[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[1;32m      5[0m [0;34m[0m[0m
+
+[0;31mImportError[0m: No module named seaborn
+ INFO [2020-10-03 14:50:07,065] ({pool-2-thread-5} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:50:07,070] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ WARN [2020-10-03 14:50:23,148] ({qtp2107447833-16} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-03 14:50:31,159] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:50:31,168] ({pool-2-thread-39} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:50:31,169] ({pool-2-thread-39} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: sh, note_id: 2FP4JVE4A, user: anonymous]
+ WARN [2020-10-03 14:50:32,949] ({pool-2-thread-39} NotebookServer.java[afterStatusChange]:2316) - Job 20200227-035217_1824235860 is finished, status: ERROR, exception: null, result: %text Collecting seaborn
+  Using cached https://files.pythonhosted.org/packages/6f/c0/666ea11c38c8b551398cfb08fe0f700a13e099a2953447888bc2ef4bb255/seaborn-0.11.0.tar.gz
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-9Y49SN/seaborn/setup.py", line 66, in <module>
+        raise RuntimeError("seaborn requires python >= 3.6.")
+    RuntimeError: seaborn requires python >= 3.6.
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-9Y49SN/seaborn/
+You are using pip version 8.1.2, however version 20.2.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+%text ExitValue: 1
+ INFO [2020-10-03 14:50:32,993] ({pool-2-thread-39} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:50:33,007] ({pool-2-thread-39} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:51:20,867] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:51:20,881] ({pool-2-thread-22} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:51:20,882] ({pool-2-thread-22} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: sh, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:51:25,725] ({pool-2-thread-22} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035217_1824235860 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:51:25,760] ({pool-2-thread-22} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:51:25,772] ({pool-2-thread-22} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:51:38,661] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:51:38,671] ({pool-2-thread-40} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035217_1824235860 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:51:38,673] ({pool-2-thread-40} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035217_1824235860, interpreter: sh, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:51:42,137] ({pool-2-thread-40} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035217_1824235860 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:51:42,190] ({pool-2-thread-40} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:51:42,203] ({pool-2-thread-40} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035217_1824235860 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-sh:shared_process-shared_session
+ INFO [2020-10-03 14:51:46,497] ({qtp2107447833-15} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:51:46,520] ({pool-2-thread-13} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234351_1863175723 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:51:46,520] ({pool-2-thread-13} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234351_1863175723, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:52:22,759] ({pool-2-thread-13} NotebookServer.java[afterStatusChange]:2314) - Job 20200226-234351_1863175723 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:52:22,800] ({pool-2-thread-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:52:22,948] ({pool-2-thread-13} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234351_1863175723 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:53:27,184] ({qtp2107447833-141} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:53:27,227] ({pool-2-thread-41} SchedulerFactory.java[jobStarted]:114) - Job 20200227-034147_1180318445 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:53:27,228] ({pool-2-thread-41} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-034147_1180318445, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:53:35,401] ({pool-2-thread-41} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-034147_1180318445 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:53:35,612] ({pool-2-thread-41} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:53:35,639] ({pool-2-thread-41} SchedulerFactory.java[jobFinished]:120) - Job 20200227-034147_1180318445 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:53:35,683] ({qtp2107447833-141} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:53:35,699] ({qtp2107447833-141} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ WARN [2020-10-03 14:53:40,421] ({qtp2107447833-13} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: s
+ INFO [2020-10-03 14:53:45,632] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:53:58,381] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:54:26,666] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:54:33,011] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:54:45,763] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:54:48,484] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:55:02,726] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:55:10,536] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:55:16,197] ({qtp2107447833-16} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:55:16,210] ({pool-2-thread-23} SchedulerFactory.java[jobStarted]:114) - Job 20200226-234227_1613779901 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:55:16,211] ({pool-2-thread-23} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200226-234227_1613779901, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:55:16,941] ({pool-2-thread-23} NotebookServer.java[afterStatusChange]:2314) - Job 20200226-234227_1613779901 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:55:16,987] ({pool-2-thread-23} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:55:17,016] ({pool-2-thread-23} SchedulerFactory.java[jobFinished]:120) - Job 20200226-234227_1613779901 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:56:26,061] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:26,938] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:29,023] ({qtp2107447833-375} NotebookServer.java[broadcastNewParagraph]:688) - Broadcasting paragraph on run call instead of note.
+ INFO [2020-10-03 14:56:29,055] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:29,071] ({pool-2-thread-42} SchedulerFactory.java[jobStarted]:114) - Job 20200227-035402_149386780 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:56:29,075] ({pool-2-thread-42} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20200227-035402_149386780, interpreter: python, note_id: 2FP4JVE4A, user: anonymous]
+ INFO [2020-10-03 14:56:33,517] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:34,852] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:35,299] ({pool-2-thread-42} NotebookServer.java[afterStatusChange]:2314) - Job 20200227-035402_149386780 is finished successfully, status: FINISHED
+ INFO [2020-10-03 14:56:35,344] ({pool-2-thread-42} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:35,382] ({pool-2-thread-42} SchedulerFactory.java[jobFinished]:120) - Job 20200227-035402_149386780 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-python:shared_process-shared_session
+ INFO [2020-10-03 14:56:40,848] ({qtp2107447833-374} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
+ INFO [2020-10-03 14:56:43,615] ({qtp2107447833-375} VFSNotebookRepo.java[save]:196) - Saving note:2FP4JVE4A
