@@ -40,3 +40,19 @@ Mode                LastWriteTime         Length Name
 ```
 
 Now you can navigate to your Zeppelin and import the notebook present in this exercise.
+
+If you get an error due to size limitations please follow this steps:
+
+```
+docker exec -it zeppelin /bin/bash
+cd /etc/zeppelin/conf/
+sudo cp zeppelin-site.xml.template zeppelin-site.xml
+sudo vim zeppelin-site.xml
+```
+You will have to find the property “zeppelin.websocket.max.text.message.size” and “‘zeppelin.interpreter.output.limit” . Mostly they will be in line 239 and 322. Default value will be 1024000 (in bytes)
+
+```
+sudo stop zeppelin
+sudo start zeppelin
+```
+Now retry the import again!
