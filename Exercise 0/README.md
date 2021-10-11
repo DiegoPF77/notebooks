@@ -70,5 +70,5 @@ CONTAINER ID        IMAGE                   COMMAND                  CREATED    
 
 #### Open your Explorer and go to localhost:8080
 
-[![Zeppelin](https://github.com/a10pepo/edem2021/blob/master/Sesiones/zeppelin/images/zeppelin_0.png)](http://localhost:19999)
+[![Zeppelin](../images/zeppelin_0.png)](http://localhost:19999)
 
