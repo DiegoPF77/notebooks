@@ -1,9 +1,0 @@
- INFO [2020-10-01 08:36:58,780] ({qtp2107447833-11} NotebookServer.java[onOpen]:151) - New connection from 172.17.0.1 : 46568
- INFO [2020-10-01 08:37:17,321] ({qtp2107447833-9} NotebookServer.java[sendNote]:828) - New operation from 172.17.0.1 : 46568 : anonymous : GET_NOTE : 2FMDMAHHD
- WARN [2020-10-01 08:37:17,327] ({qtp2107447833-9} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2FMDMAHHD, No HEAD exists and no explicit starting revision was specified
- WARN [2020-10-01 08:37:17,330] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
- WARN [2020-10-01 08:37:17,330] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
- WARN [2020-10-01 08:37:17,331] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
- WARN [2020-10-01 08:37:17,331] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
- WARN [2020-10-01 08:37:17,331] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
- WARN [2020-10-01 08:37:17,331] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order

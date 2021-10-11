@@ -1,4 +1,0 @@
- INFO [2020-10-03 14:39:14,828] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:114) - Job 20200212-211017_427079505 started by scheduler org.apache.zeppelin.markdown.Markdown905018631
- INFO [2020-10-03 14:39:14,961] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:120) - Job 20200212-211017_427079505 finished by scheduler org.apache.zeppelin.markdown.Markdown905018631
- INFO [2020-10-03 14:39:15,275] ({pool-2-thread-17} SchedulerFactory.java[jobStarted]:114) - Job 20200212-211209_383425838 started by scheduler org.apache.zeppelin.markdown.Markdown905018631
- INFO [2020-10-03 14:39:15,558] ({pool-2-thread-17} SchedulerFactory.java[jobFinished]:120) - Job 20200212-211209_383425838 finished by scheduler org.apache.zeppelin.markdown.Markdown905018631

@@ -1,7 +1,0 @@
-ERROR [2020-10-19 16:31:29,952] ({Exec Default Executor} PythonInterpreter.java[onProcessFailed]:601) - python process failed
-org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
-	at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
-	at java.lang.Thread.run(Thread.java:748)
- INFO [2020-10-19 16:31:31,479] ({pool-1-thread-2} RemoteInterpreterServer.java[shutdown]:209) - Shutting down...
