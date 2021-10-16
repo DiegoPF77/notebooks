@@ -74,7 +74,7 @@ SELECT * FROM amazon WHERE number_of_reviews = """ + z.angular("numberReviews") 
 
 
 ```bash
-%sql
+%spark.sql
 select * from amazon where number_of_reviews >= '${numberReviews}'
 ```
 #### Creating Parameters
