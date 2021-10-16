@@ -45,6 +45,7 @@ With this code we are loading our sample data.
 4) Your code should be something like:
 
 ```bash
+%spark.sql
 select * from amazon where product_name like  '%hobby%'
 ```
 5) In order to avoid repeating, Zeppelin provides **Dynamic Forms**
