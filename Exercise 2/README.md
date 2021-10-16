@@ -16,6 +16,7 @@ Before running this ¡¡¡CAUTION!!! log into the image and create the folder da
 ```bash
 docker exec -it zeppelin_single /bin/bash
 mkdir data
+exit
 docker cp amazon.csv zeppelin_single:/zeppelin/data
 ```
 
