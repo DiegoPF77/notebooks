@@ -38,7 +38,7 @@ Server:
 #### Once validated download the Zeppelin Docker file
 Run below command 
 ```bash
-docker run -p 19999:8080 -v $PWD/data:/zeppelin/data -v $PWD/logs:/logs --rm --name zeppelin_single apache/zeppelin:0.8.1 
+docker run -p 19999:8080 -v $PWD/data:/zeppelin/data -v $PWD/logs:/logs --rm --name zeppelin_single apache/zeppelin:0.9.0 
 ```
 ```bash
 0.8.1: Pulling from apache/zeppelin
@@ -65,7 +65,7 @@ docker ps
 ```
 ```bash
 CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                    NAMES
-82417ea3f4a7        apache/zeppelin:0.8.1   "/usr/bin/tini -- bi…"   2 minutes ago       Up 2 minutes        0.0.0.0:19999->8080/tcp   zeppelin
+82417ea3f4a7        apache/zeppelin:0.9.0   "/usr/bin/tini -- bi…"   2 minutes ago       Up 2 minutes        0.0.0.0:19999->8080/tcp   zeppelin
 ```
 
 #### Open your Explorer and go to localhost:19999
